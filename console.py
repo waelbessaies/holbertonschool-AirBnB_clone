@@ -5,7 +5,6 @@ import cmd
 import sys
 
 
-
 class HBNBCommand(cmd.Cmd):
     """ the class HBNBCommand """
     prompt = '(hbnb) '
