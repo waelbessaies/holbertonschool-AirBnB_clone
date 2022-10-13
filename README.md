@@ -39,4 +39,4 @@ To run unittests for this program, cd into root directory and run the following 
 
 ## Authors
 
-Wael Bessaies < 4405@holbertonschool.com > and Ali Dehissy < 4411@holbertonschool.com >
+Wael Bessaies < 4405@holbertonschool.com > Ali Dehissy < 4411@holbertonschool.com >
