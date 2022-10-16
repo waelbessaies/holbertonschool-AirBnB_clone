@@ -3,6 +3,7 @@
 
 from datetime import datetime
 from uuid import uuid4
+import models
 
 
 class Basemodel:
@@ -13,6 +14,7 @@ class Basemodel:
         self.id = str(uuid4())
         self.created_at = datetime.now()
         self.updated_at = self.created_at
+        models.storage.new(self)
 
 
 def __str__(self):
@@ -24,6 +26,7 @@ def __str__(self):
 def save(self):
     """updates the public instance attribute updated_at """
     self.updated_at = datetime.now()
+    models.storage.save()
 
 
 def to_dict(self):
