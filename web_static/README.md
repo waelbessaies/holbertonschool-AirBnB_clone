@@ -1,1 +1,1 @@
-## web_static 
+## WEB_STATIC
