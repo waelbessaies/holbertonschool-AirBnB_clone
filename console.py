@@ -133,7 +133,7 @@ class HBNBCommand(cmd.Cmd):
                     verfy_all = True
                 elif len(arg) == 0:
                     str_list.append(v.__str__())
-                    verfy_all = True    
+                    verfy_all = True
             if verfy_all:
                 print(str_list)
             else:
